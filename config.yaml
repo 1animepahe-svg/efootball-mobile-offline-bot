@@ -1,0 +1,26 @@
+# Defaults for Samsung Galaxy S21+ — 1080 x 2400. Calibrate for your phone with calibrate.py.
+# Coordinates are screen pixels, [x, y].
+buttons:
+  pass: [880, 1950]
+  shoot: [980, 1800]
+  through: [880, 2100]
+  sprint: [700, 2050]
+  switch: [700, 1850]
+  joystick_center: [220, 1950]
+  joystick_push_px: 120
+
+detect:
+  play_top_frac: 0.15
+  play_bottom_frac: 0.75
+  ball_brightness: 220
+  ball_min_area: 8
+  ball_max_area: 400
+
+decide:
+  shoot_x_frac: 0.78
+  pass_x_frac: 0.55
+
+timings:
+  loop_delay_s: 0.4
+  action_delay_s: 0.15
+  dribble_ms: 300
